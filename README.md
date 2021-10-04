@@ -13,7 +13,9 @@ The goal of this projet is to recommend books / articles to customers, integrate
 
 # :computer: Dependencies
 
+
 # :hammer_and_wrench: Tools (prerequisites)
+- Fork of [Bookshelf App](https://github.com/OpenClassrooms-Student-Center/bookshelf) on Github;
 - [Node.js](https://nodejs.org/en/), including npm (Node package manager);
 - [Azure Functions Core Tools](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cportal%2Cbash%2Ckeda#install-the-azure-functions-core-tools);
 - [Android Studio](https://developer.android.com/studio?hl=fr);
