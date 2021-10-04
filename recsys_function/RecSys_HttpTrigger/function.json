@@ -15,6 +15,22 @@
       "type": "http",
       "direction": "out",
       "name": "$return"
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "clicksBlob",
+      "path": "data/small_clicks.csv",
+      "connection": "AzureWebJobsStorage",
+      "dataType": "binary"
+    },
+    {
+      "type": "blob",
+      "direction": "in",
+      "name": "embeddingsBlob",
+      "path": "data/small_embeddings.pickle",
+      "connection": "AzureWebJobsStorage",
+      "dataType": "binary"
     }
   ]
 }
