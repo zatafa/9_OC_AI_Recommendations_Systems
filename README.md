@@ -21,7 +21,9 @@ The goal of this projet is to recommend books / articles to customers, integrate
 ## Notes on the data
 In this project, we have **IMPLICIT** data, i.e. we don't have clear (explicit) feedback from the users about their preferences, like articles' rating.
 
-Besides, there is an additional drawback because we don't have full data about interactions: it would have been interesting to have at least the view duration of an article.
+Besides, there are additional drawbacks:
+- We don't have full data about interactions: it would have been interesting to have at least the view duration of an article;
+- We don't have the details of articles for confidentiality reasons: it's difficult to see "visually" if the recommendations are really relevant.
 
 # :scroll: Tasks
 - :heavy_check_mark: Perform Exploratory Data Analysis (EDA);
@@ -41,7 +43,7 @@ Pandas, sklearn, implicit library, Azure Functions, Azure Blob Storage, Github, 
 - Fork of [Bookshelf App](https://github.com/OpenClassrooms-Student-Center/bookshelf) on Github;
 - [Node.js](https://nodejs.org/en/), including npm (Node package manager);
 - [Azure Functions Core Tools](https://docs.microsoft.com/fr-fr/azure/azure-functions/functions-run-local?tabs=windows%2Ccsharp%2Cportal%2Cbash%2Ckeda#install-the-azure-functions-core-tools);
-- [Android Studio](https://developer.android.com/studio?hl=fr);
+- [Android Studio](https://developer.android.com/studio?hl=fr).
 
 # :pushpin: References
 - Recommendations systems: [Categories of RecSys](https://interstices.info/les-systemes-de-recommandation-categorisation/)
@@ -51,7 +53,8 @@ Pandas, sklearn, implicit library, Azure Functions, Azure Blob Storage, Github, 
 - [Create Azure Functions with Visual Studio Code](https://docs.microsoft.com/fr-fr/azure/azure-functions/create-first-function-vs-code-python);
 - Serverless : [What is Serverless?](https://serverless-stack.com/chapters/fr/what-is-serverless.html)
 
-# :next_track_button: Next steps
+# :next_track_button: Next steps...
 - :ballot_box_with_check: Check if the articles have been seen more than once by an user;
 - :ballot_box_with_check: Try dataset with explicit feedback;
-- :ballot_box_with_check: Use scikit-surprise library.
+- :ballot_box_with_check: Use scikit-surprise library;
+- :ballot_box_with_check: what about hybrid and neural networks RecSys?
