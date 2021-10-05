@@ -5,10 +5,23 @@ The goal of this projet is to recommend books / articles to customers, integrate
 
 <img src='/pictures\recommendation_systems_categorization.png'>
 
+## Content-Based Filtering: the theory
+
+<img src='/pictures\content-based filtering.png'>
+
+## Collaborative Filtering: the theory
+
+<img src='/pictures\collaborative_filtering.png'>
+
 # :card_index_dividers: Dataset
 [News Portal provided by Globo.com](https://www.kaggle.com/gspmoreira/news-portal-user-interactions-by-globocom#clicks_sample.csv), one of the most popular media company in Brazil.
 
 **More information** available on [Gabriel Moreira's Github/paper](https://github.com/gabrielspmoreira/chameleon_recsys)
+
+## Notes on the data
+In this project, we have **IMPLICIT** data, i.e. we don't have clear (explicit) feedback from the users about their preferences, like articles' rating.
+
+Besides, there is an additional drawback because we don't have full data about interactions: it would have been interesting to have at least the view duration of an article.
 
 # :scroll: Tasks
 - :heavy_check_mark: Perform Exploratory Data Analysis (EDA);
@@ -36,4 +49,9 @@ Pandas, sklearn, implicit library, Azure Functions, Azure Blob Storage, Github, 
 - Cosine similarity : [Sklearn pairwise metrics](https://scikit-learn.org/stable/modules/metrics.html); 
 - [Implicit library](https://implicit.readthedocs.io/en/latest/quickstart.html);
 - [Create Azure Functions with Visual Studio Code](https://docs.microsoft.com/fr-fr/azure/azure-functions/create-first-function-vs-code-python);
-- Serverless : [What is Serverless?](https://serverless-stack.com/chapters/fr/what-is-serverless.html).
+- Serverless : [What is Serverless?](https://serverless-stack.com/chapters/fr/what-is-serverless.html)
+
+# :next_track_button: Next steps
+- :ballot_box_with_check: Check if the articles have been seen more than once by an user;
+- :ballot_box_with_check: Try dataset with explicit feedback;
+- :ballot_box_with_check: Use scikit-surprise library.
