@@ -12,7 +12,11 @@ The goal of this projet is to recommend books / articles to customers, integrate
 - :heavy_check_mark: Deploy Content-based RecSys on Azure (Azure Functions, Azure Blob Storage).
 
 # :computer: Dependencies
+Pandas, sklearn, implicit library, Azure Functions, Azure Blob Storage, Github, VS Code
 
+## Targeted Serverless Architecture
+
+<img src='/pictures\targeted_serverless_architecture.png'>
 
 # :hammer_and_wrench: Tools (prerequisites)
 - Fork of [Bookshelf App](https://github.com/OpenClassrooms-Student-Center/bookshelf) on Github;
